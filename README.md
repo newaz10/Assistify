@@ -34,4 +34,4 @@ Contributions to Assistify are welcome! If you have ideas for new features, impr
 
 📌Assistify Screen:
 
-![Assistify Screen](https://github.com/newaz10)
+![Assistify Screen](https://github.com/newaz10/Assistify/blob/main/assets/Assistify_Screen.PNG)
