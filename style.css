@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  color: #00bcd4;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+h2 {
+  color: #bfdadf;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.main {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  padding: 1rem;
+}
+
+.main-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image img {
+  width: 17rem;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  border-radius: 2rem;
+  background: rgb(202 253 255 / 50%);
+}
+
+.mic {
+  font-size: 2rem;
+  padding-left: 3rem;
+  color: #fff;
+}
+
+.talk {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 25rem;
+  height: 5rem;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  .input {
+    width: 80vw; 
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    width: 60vw; 
+  }
+}
